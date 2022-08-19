@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "3.8.12",
+  "version": "3.8.22",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "electron-log": "^4.4.1",
-    "electron-updater": "^4.3.9"
+    "electron-updater": "^5.2.2"
   },
   "build": {
     "appId": "com.github.pmake.electronupdaterexample",
@@ -32,10 +32,12 @@
       "category": "your.app.category.type",
       "target": "AppImage"
     },
-    "publish": [{
-      "provider": "github",
-      "owner": "pmake",
-      "repo": "electron-updater-example"
-    }]
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "pmake",
+        "repo": "electron-updater-example"
+      }
+    ]
   }
 }
